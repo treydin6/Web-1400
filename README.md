@@ -6,23 +6,23 @@
 #### 'explore' assignments we were to make our own website implementing stuff we learned in class
 
 1. dixie2
-* Basic HTML page
+	* Basic HTML page
 2. dixie4
-* Intro to CSS
+	* Intro to CSS
 3. dixie5
-* img tag
+	* img tag
 4. dixie6
-* wrappers and Hero images
+	* wrappers and Hero images
 5. dixie7
-* Customized nav bars and list images
+	* Customized nav bars and list images
 6. dixie9
-* More CSS tricks
+	* More CSS tricks
 7. dixie10
-* Tables
+	* Tables
 8. dixie11
-* Forms
+	* Forms
 9. dixie12
-* Adding videos
+	* Adding videos
 
 
 10. explore assignemts all implement things learned with the 'dixie' assignments but with no requirments

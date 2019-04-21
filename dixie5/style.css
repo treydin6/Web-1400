@@ -1,0 +1,80 @@
+body {
+	background-color: #ffffff;
+	color: #666666;
+	font-family: "arial", Helvetica, serif;
+}
+
+header {
+	background-color: #BA1C21;
+	color: #ffffff;
+	background-image: url(dsu.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	text-align: left;
+	line-height: 400%;
+	text-indent: 1em;
+	margin-bottom: 0px;
+}
+
+nav {
+	background-color: #f3f3f3;
+	font-weight: bold;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+h1{
+	margin-bottom: 0px;
+	font-family: georgia, "times new roman", serif;
+}
+
+h2 {
+	color: #424242;
+	font-family: georgia, "times new roman", serif;
+}
+
+h3{
+	font-family: georgia, "times new roman", serif;
+	color: #ba1c21;
+}
+
+ul{
+	list-style-image: url(marker.gif);
+}
+
+dt {
+	color: #BA1C21;
+}
+
+.dsu {
+	color: #BA1C21;
+	font-weight: bold;
+}
+
+footer{
+	font-size: 75%;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	font-family: georgia, "times new roman", serif;
+}
+
+#contact{
+	font-size: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

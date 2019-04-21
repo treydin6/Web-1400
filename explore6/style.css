@@ -1,0 +1,98 @@
+h1{
+	background-color: #4f4f4f; 
+	color: #B1BCBB;
+	padding: 10px;	
+}
+
+nav{
+	text-align: center;
+	padding-bottom: 30px;	
+	
+}
+
+body{
+	background-color: #B1BCBB;
+	margin: 20px;
+	padding-bottom: 20px;
+}	
+
+p{
+	color: #21465B;
+	padding: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: red;
+	font-size: 25px;
+	border-style: dotted; 
+	border-color: black;
+}
+
+body a{
+	padding: 5px;
+}
+
+footer{
+	text-align: center;
+	background-color: red;
+	color: black;
+	font-size: 17px;
+
+}
+
+#mtbairhero{
+	height: 300px;
+	background-image: url(mtbairhero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 250px;
+
+}
+
+#mtb4hero{
+	height: 300px;
+	background-image: url(mtb4hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 250px;
+
+}
+
+#travelhero{
+	height: 300px;
+	background-image: url(travelhero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 250px;
+	opacity: 0.5;
+}
+
+#travelhero:hover{
+	opacity: 1.0;
+	filter: alpha(opacity=50);
+}
+
+.pic{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	opacity: 0.5;
+
+}
+
+.pic:hover{
+	opacity: 1.0;
+	filter: alpha(opacity=50);
+}
+
+#wrapper{
+	width: 960px;
+	border-style: solid;
+	margin: auto;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}

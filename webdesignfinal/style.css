@@ -1,0 +1,476 @@
+header, main, nav, footer, figure, figcaption, aside, section, article { display:block; }
+
+
+@font-face {
+	font-family:Fonts;
+	src: url(Luna.ttf);
+	src: url(CaviarDreams_Italic.ttf);
+
+}
+
+h1{
+	font-family: "Caviar Dreams", times, serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: black;
+	margin-left: 60px;
+	float: left;
+	font-size: 2.5em;
+
+}
+
+ul{
+	float: right;
+	display: inline;
+}
+
+nav li {
+		 display: inline;
+		 padding-top: 0.25em;
+		 padding-bottom: 0.25em;
+		 padding-right: 0.75em;
+		 padding-left:0.75em;
+}
+
+body{
+	margin: 0px;
+}
+
+nav{	
+	text-align: center;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	min-width: 69.45%;
+	min-height: 69px;
+	padding-top: 33px;
+	font-weight: bold;
+}
+
+
+nav a {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	
+}
+
+a:hover{
+	color: #3fc8d5;
+}
+
+a:hover, a:active {
+	font-size: 220%;}
+
+
+/*.border {
+	border-style: dotted;
+	margin-left: 10px;
+	margin-right: 10px;
+}*/
+
+/*body{
+	border-style: groove;
+	
+}*/
+
+p {
+	background-color: white;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+h2{
+	font-family: "Luna", times, serif;
+	text-align: center;
+	font-size: 3em;
+	color: #3fc8d5;
+	margin-top: 0px;
+	padding-top: 15px;
+	border-top: solid;
+	border-color: black;
+
+}
+
+h3{
+	font-family: "Luna", times, serif;
+	text-align: center;
+	font-size: 3em;
+	color: #3fc8d5;
+	margin-top: 0px;
+	padding-top: 15px;
+	border-top: solid;
+	border-color: black;
+}
+
+h4 {
+	text-align: center;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+h5{
+	font-family: "Luna", times, serif;
+	text-align: center;
+	font-size: 3em;
+	color: #3fc8d5;
+	margin-top: 0px;
+	padding-top: 15px;
+	border-top: solid;
+	border-color: black;
+	margin-bottom: 0px;
+}
+
+h6{
+	text-align: center;
+	margin-top: 70px;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 80px;
+	margin-top: 0px;
+	font-family: Arial, Helvetica,sans-serif;
+}
+
+/*classes*/
+
+/*Every page classes*/
+/*Every page classes*/
+
+.headerstyle{
+	width: 100%;
+	height: 90px;
+	background-color: white;	 
+}
+
+.clear{
+	clear: right;
+}
+
+.TableDec{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #3fc8d5;
+	font-family: times, Helvetica,sans-serif;
+}
+
+/*home page classes */
+/*home page classes */
+
+.top-center{
+	font-family: "luna", times, serif;
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	margin-top: 35px;
+	transform: translate(-50%, -50%);
+	font-size: 4em;
+	font-weight: bold;
+	padding: 8px;
+	color: #3fc8d5;
+}
+
+.Mission{
+	font-size: 5em;
+	padding-top: 13px;
+	padding-bottom: 7px;
+	font-family: "Honeymoon", times, serif;
+	color: #3fc8d5
+}
+
+.Statement{
+	font-size: 1.3em;
+	padding-bottom: 15px;
+}
+
+/*End home page classes */
+/*End home page classes */
+
+
+/*Products page classes*/
+/*Products page classes*/
+
+
+.photos {
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.img {
+	width: 300px;
+	height: 300px;
+	margin: 20px 10px 10px 0;
+	transform: rotate(90deg); 
+
+}
+
+.text {
+	padding-top: 0px;
+	padding-bottom: 15px;
+	font-family: Arial, Helvetica,sans-serif;
+}
+
+
+
+/*img:hover{
+	opacity: .5;
+
+}*/
+
+
+
+/* END Products page classes*/
+/* END Products page classes*/
+
+
+/*Service page classes */
+/*Service page classes */
+
+
+
+.servicesList{
+	margin-bottom: 35px;
+	margin-top: 15px;
+	margin-left: 0px;
+
+}
+
+/* END Service page classes */
+/* END Service page classes */
+
+
+/* About page classes */
+/* About page classes */
+
+.AboutStyle{
+	font-family: "Luna", times, serif;
+	font-size: 3em;
+	margin-bottom: 0px;
+	color: #3fc8d5;
+	padding-bottom: 0px;
+	border-top: solid;
+	border-top-color: black; 
+}
+
+.AboutMe{
+	text-align: center;
+	font-size: 1.3em;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#AboutMePic{
+	width: 400px;
+	height: 500px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+}
+/* END About page classes */
+/* END About page classes */
+
+
+
+
+
+/* ID"S*/
+/* ID"S*/
+
+#coverhero{
+	height: 600px;
+	margin-bottom: 10px;
+	background-image: url(Cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media querry*/
+
+@media only screen and (max-width:58em){
+	body{
+		margin: 0;
+		background-color: #ffffff;
+	}
+
+	main {
+		margin-left: 0px;
+	}
+
+	nav {
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: 0.5em;
+	}
+
+	nav li {
+		 display: inline;
+		 padding-top: 0.25em;
+		 padding-bottom: 0.25em;
+		 padding-right: 0.75em;
+		 padding-left:0.75em;
+	}
+
+	#combhero {
+		margin-left: 0px;
+		height: 300px;
+	}
+
+	.top-center {
+		margin-left: 0px;
+		margin-top: 75px;
+		height: 80px;
+		font-size: 3em;
+	}
+
+	footer {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width:37.5em) { 
+	header {
+		padding-top: 1em;
+	}
+
+	main {
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		padding-right: 1em;
+		padding-left: 1em;
+		font-size: 90%;
+	}
+
+	h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+
+	nav {
+		padding: 0px;
+
+	}
+
+	.headerstyle{
+		text-align: left;
+	}
+
+	ul{
+		text-align: left
+	}
+
+	nav li {
+		
+		margin: 0px;
+		border-bottom: #330000;
+	}
+
+	nav a {
+		
+	}
+
+	nav ul a{
+		
+
+	}
+
+	p{
+		padding-top: 25px;
+	}
+
+	footer{
+		margin-bottom: 0PX;	
+	}
+
+	table{
+		text-align: left;
+		
+	}
+
+	.servicesList{
+		padding-left: 10px;
+	}
+
+	#coverhero{
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 400px;
+		height: 300px;
+	}
+
+	.top-center {
+		margin-top: 0px;
+		height: 0px;
+	}
+
+	#mobile{
+		display: inline;
+	}
+
+	#desktop {
+		display: none;
+	}
+
+}
+
+
+
+
+
+

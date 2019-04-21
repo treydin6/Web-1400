@@ -1,0 +1,154 @@
+h1{
+	background-color: #4d0000; 
+	color: #ffffff;
+	padding: 20px;
+	margin-top: 0px;
+}
+
+nav{
+	text-align: center;
+	padding-bottom: 30px;	
+	
+}
+
+body{
+	/*background-color: #B1BCBB;*/
+	margin: 20px;
+	padding-bottom: 20px;
+	/*color: #ffffff;*/
+	color: #000000;
+	background-image: url(mountains.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	
+}	
+
+p{
+	color: #21465B;
+	padding: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #4d0000;
+	font-size: 25px;
+	border-style: dotted; 
+	border-color: #ffffff;
+}
+
+body a{
+	padding: 5px;
+}
+
+h6{
+	text-align: center;
+	background-color: #4d0000;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 20px;
+	margin-bottom: 0px;
+
+}
+
+h2{
+	text-align: center;
+}
+
+form{
+	text-align: center;
+	border-style: double;
+	
+}
+
+/*#sky{
+	color: #000000;
+	background-image: url(sky.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+
+}*/
+
+#mtbairhero{
+	height: 300px;
+	background-image: url(mtbairhero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 250px;
+
+}
+
+#mtb4hero{
+	height: 300px;
+	background-image: url(mtb4hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 250px;
+
+}
+
+#graduation{
+	height: 300px;
+	background-image: url(graduation.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 250px;
+}
+
+#travelhero{
+	height: 300px;
+	background-image: url(travelhero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 250px;
+}
+
+/*#travelhero:hover{
+	opacity: 1.0;
+	filter: alpha(opacity=50);
+}*/
+
+.pic{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+
+}
+
+/*.pic:hover{
+	opacity: 1.0;
+	filter: alpha(opacity=50);
+}*/
+
+#wrapper{
+	width: 960px;
+	border-style: solid;
+	margin: auto;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	background-color: #B1BCBB;
+}
+
+
+
+/* Media Query*/
+
+@media only screen and (max-width: 960px) {
+	#wrapper {
+		width: 350px;
+	}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+/* DO NOT REMOVE */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+/* DO NOT REMOVE */
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #FAFAFA;
+  color: #2C2C2C;
+}
+
+header{
+  background-color: #FFCF00;
+  /*position: fixed;
+  width: 100%;*/
+}
+
+nav ul{
+  list-style: none;
+  text-align: left;
+  margin: 0px;
+  padding-left: 0px;
+  padding:20px 0px;
+
+}
+
+nav ul li{
+  display: inline;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  color: #4A4A4A;
+  /* border-right:2px solid white; */
+}
+
+main{
+  background-color: #FAFAFA;
+}
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+  display: block;
+}
+
+.logo{
+  width: 50px;
+  float: left;
+  padding-top: 7px;
+  margin-right: 15px;
+}
+.rougue{
+  background-image: url('rogueone.jpg');
+  height: 25vw;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.deathstar{
+  text-align: left;
+}
+
+img{
+  width: 250px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  float: right;
+
+}
+h2{
+  clear: right;
+  color: #4A4A4A;
+}
+
+.wrapper{
+  width:80%;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-style: solid;
+}
+
+footer{
+  padding: 15px 0px;
+  text-align: center;
+  color: #4A4A4A;
+  background-color: #C2C0C0;
+  font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
